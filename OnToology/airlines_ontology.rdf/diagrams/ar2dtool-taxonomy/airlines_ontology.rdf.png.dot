@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "airlines-valoration:EconomyClass" "airlines-valoration:CabinStaffService" "airlines-valoration:SoloLeisure" "airlines-valoration:GroundStaff" "airlines-valoration:FamilyLeisure" "airlines-valoration:BusinessClass" "airlines-valoration:FirstClass" "airlines-valoration:Person" "airlines-valoration:StaffMember" "airlines-valoration:SeatComfort" "airlines-valoration:PremiumEconomyClass" "airlines-valoration:PassengerMotive" "airlines-valoration:FlightCrew" "airlines-valoration:GroundService" "airlines-valoration:Service" "airlines-valoration:InflightEntertainment" "airlines-valoration:CoupleLeisure" "airlines-valoration:Business" "airlines-valoration:Review" "airlines-valoration:ValueForMoney" "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Wifi&Connectivity" "airlines-valoration:Passenger" "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Food&Beverages" "airlines-valoration:Class" "airlines-valoration:VerifiedReview" ; /*classes style*/
+	"airlines-valoration:VerifiedReview" -> "airlines-valoration:Review" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:CoupleLeisure" -> "airlines-valoration:PassengerMotive" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:SoloLeisure" -> "airlines-valoration:PassengerMotive" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:EconomyClass" -> "airlines-valoration:Class" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:StaffMember" -> "airlines-valoration:Person" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:InflightEntertainment" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:Business" -> "airlines-valoration:PassengerMotive" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:CabinStaffService" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Wifi&Connectivity" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Food&Beverages" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:GroundStaff" -> "airlines-valoration:StaffMember" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:SeatComfort" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:ValueForMoney" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:FirstClass" -> "airlines-valoration:Class" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:PremiumEconomyClass" -> "airlines-valoration:Class" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:GroundService" -> "airlines-valoration:Service" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:BusinessClass" -> "airlines-valoration:Class" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:Passenger" -> "airlines-valoration:Person" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:FamilyLeisure" -> "airlines-valoration:PassengerMotive" [ label = "rdfs:subClassOf" ];
+	"airlines-valoration:FlightCrew" -> "airlines-valoration:StaffMember" [ label = "rdfs:subClassOf" ];
+
+}
