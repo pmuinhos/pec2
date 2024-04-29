@@ -1,0 +1,287 @@
+{
+  "@context" : {
+    "belongsTo" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#belongsTo",
+      "@type" : "@id"
+    },
+    "checkedIn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#checkedIn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "reviewRecommend" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#reviewRecommend",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "providedWith" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#providedWith",
+      "@type" : "@id"
+    },
+    "Review" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Review"
+    },
+    "includes" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#includes",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "ubicatedIn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#ubicatedIn",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Country"
+    },
+    "reviewComment" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#reviewComment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "associatedTo" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#associatedTo",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "flightDepartureTime" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightDepartureTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "seatRow" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#seatRow",
+      "@type" : "http://www.w3.org/2001/XMLSchema#short"
+    },
+    "Class" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Class"
+    },
+    "reviewDate" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#reviewDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "CoupleLeisure" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#CoupleLeisure"
+    },
+    "workerOf" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#workerOf",
+      "@type" : "@id"
+    },
+    "flightsTo" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightsTo",
+      "@type" : "@id"
+    },
+    "personId" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#personId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker"
+    },
+    "reviewTitle" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#reviewTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "propertyOf" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#propertyOf",
+      "@type" : "@id"
+    },
+    "author" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#author",
+      "@type" : "@id"
+    },
+    "aircraftModel" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#aircraftModel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "makedA" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#makedA",
+      "@type" : "@id"
+    },
+    "ValueForMoney" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#ValueForMoney"
+    },
+    "FirstClass" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#FirstClass"
+    },
+    "operatedBy" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#operatedBy",
+      "@type" : "@id"
+    },
+    "InflightEntertainment" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#InflightEntertainment"
+    },
+    "flightsWith" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightsWith",
+      "@type" : "@id"
+    },
+    "PremiumEconomyClass" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#PremiumEconomyClass"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Business"
+    },
+    "Airport" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Airport"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Person"
+    },
+    "offeredBy" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#offeredBy",
+      "@type" : "@id"
+    },
+    "CabinStaffService" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#CabinStaffService"
+    },
+    "Ticket" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Ticket"
+    },
+    "hasNationality" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#hasNationality",
+      "@type" : "@id"
+    },
+    "FlightCrew" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#FlightCrew"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "flightArriveTime" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightArriveTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "passedAccessControl" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#passedAccessControl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "seatColumn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#seatColumn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Passenger"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Seat"
+    },
+    "flightsFrom" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightsFrom",
+      "@type" : "@id"
+    },
+    "SeatComfort" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#SeatComfort"
+    },
+    "FamilyLeisure" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#FamilyLeisure"
+    },
+    "motivatedBy" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#motivatedBy",
+      "@type" : "@id"
+    },
+    "flightsIn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#flightsIn",
+      "@type" : "@id"
+    },
+    "classifiedIn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#classifiedIn",
+      "@type" : "@id"
+    },
+    "airportCode" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#airportCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Aircraft"
+    },
+    "rateValue" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#rateValue"
+    },
+    "allowsOccupy" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#allowsOccupy",
+      "@type" : "@id"
+    },
+    "VerifiedReview" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#VerifiedReview"
+    },
+    "Connectivity" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Wifi&Connectivity"
+    },
+    "StaffMember" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#StaffMember"
+    },
+    "Beverages" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Food&Beverages"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Airline"
+    },
+    "GroundStaff" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#GroundStaff"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Flight"
+    },
+    "locatedIn" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#locatedIn",
+      "@type" : "@id"
+    },
+    "Rate" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Rate"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#City"
+    },
+    "reviewsFlight" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#reviewsFlight",
+      "@type" : "@id"
+    },
+    "GroundService" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#GroundService"
+    },
+    "EconomyClass" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#EconomyClass"
+    },
+    "valorates" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#valorates",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "adquiredThrough" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#adquiredThrough",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Service" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#Service"
+    },
+    "SoloLeisure" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#SoloLeisure"
+    },
+    "BusinessClass" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#BusinessClass"
+    },
+    "owns" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#owns",
+      "@type" : "@id"
+    },
+    "PassengerMotive" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#PassengerMotive"
+    },
+    "ticketPrice" : {
+      "@id" : "http://www.semanticweb.org/xxx/ontologies/2024/3/airlines-valoration#ticketPrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    }
+  }
+}
